@@ -9,20 +9,23 @@ body {
   width: 90%;
   max-width: 1000px;
   margin: auto;
-  padding: 40px 20px;
+  padding: 40px 20px 80px;
 }
 
 .hero {
   text-align: center;
   margin-top: 80px;
+  margin-bottom: 50px;
 }
 
 h1 {
   font-size: 3rem;
+  margin-bottom: 10px;
 }
 
 h2 {
   color: #c9d1d9;
+  margin-bottom: 16px;
 }
 
 .subtitle {
@@ -32,29 +35,72 @@ h2 {
 
 p {
   margin: 10px 0;
+  line-height: 1.7;
 }
 
 .section {
   margin-top: 60px;
 }
 
+.card,
 .project {
   background: #161b22;
-  padding: 20px;
+  padding: 22px;
   margin-top: 20px;
-  border-radius: 10px;
-  transition: 0.2s;
+  border-radius: 14px;
+  border: 1px solid #21262d;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
 }
 
+.card:hover,
 .project:hover {
-  transform: translateY(-5px);
+  transform: translateY(-6px);
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.28);
+  border-color: #30363d;
 }
 
 a {
   color: #58a6ff;
   text-decoration: none;
+  transition: color 0.2s ease;
 }
 
 a:hover {
+  color: #79c0ff;
   text-decoration: underline;
+}
+
+.hero-links {
+  margin-top: 18px;
+}
+
+/* Animation */
+.fade-in {
+  opacity: 0;
+  transform: translateY(24px);
+  animation: fadeUp 0.9s ease forwards;
+}
+
+.delay-1 {
+  animation-delay: 0.2s;
+}
+
+.delay-2 {
+  animation-delay: 0.4s;
+}
+
+.delay-3 {
+  animation-delay: 0.6s;
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
