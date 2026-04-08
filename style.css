@@ -25,6 +25,11 @@ h2 {
   color: #c9d1d9;
 }
 
+.subtitle {
+  margin-top: 10px;
+  color: #8b949e;
+}
+
 p {
   margin: 10px 0;
 }
@@ -36,11 +41,20 @@ p {
 .project {
   background: #161b22;
   padding: 20px;
-  margin-top: 15px;
+  margin-top: 20px;
   border-radius: 10px;
+  transition: 0.2s;
 }
 
 .project:hover {
-  transform: translateY(-3px);
-  transition: 0.2s;
+  transform: translateY(-5px);
+}
+
+a {
+  color: #58a6ff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
