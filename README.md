@@ -1,19 +1,29 @@
 # 🌐 Thi Phuong Thao Nguyen – Portfolio
 
-![Portfolio](https://img.shields.io/badge/Website-Live-blue?style=for-the-badge)
-![Cybersecurity](https://img.shields.io/badge/Focus-Cybersecurity-green?style=for-the-badge)
-![Green Software](https://img.shields.io/badge/Focus-Green%20Software-brightgreen?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge)
+<h1 align="center">Hi 👋, I'm Thao Nguyen</h1>
+<h3 align="center">Aspiring Cybersecurity Engineer | Media Informatics | Green Software</h3>
+
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com/?lines=Cybersecurity+Projects;Log+Analysis;Linux+Security;Green+Software;Always+learning+new+things&center=true&width=500&height=45">
+</p>
+
+---
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Name-Thao%20Nguyen-blue?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Focus-Cybersecurity-green?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Focus-Green%20Software-brightgreen?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge">
+</p>
 
 ---
 
 ## 🔗 Live Website
-
 👉 https://thiphuongthaonguyen-sec.github.io/
 
 ---
 
-## 🖼️ Preview
+## 🖼️ Portfolio Preview
 
 ![Portfolio Preview](preview.png)
 
@@ -21,75 +31,57 @@
 
 ## 👩‍💻 About Me
 
-Hi 👋 I'm Thao Nguyen  
+I am a Media Informatics graduate and currently pursuing a Master's in Internet Security.
 
-🎓 M.Sc. Internet Security Student  
-🎓 B.Sc. Media Informatics  
-🔐 Cybersecurity | 🌱 Green Software  
+My focus is on building practical cybersecurity projects that explore:
 
-I am passionate about building practical cybersecurity projects and exploring how security, automation, and sustainability intersect in real-world systems.
+- 🔐 Authentication & security fundamentals  
+- 📊 Log analysis & anomaly detection  
+- 🐧 Linux permissions & system security  
+- 🛡️ File integrity monitoring  
+- ⚙️ Automation & structured workflows  
+- 🌱 Green Software & sustainability  
+
+I aim to continuously improve my technical depth and build meaningful, real-world systems.
 
 ---
 
 ## 🚀 Projects
 
-### 🔹 Auth Log Monitor  
-Analyzes authentication logs to detect suspicious login attempts and brute-force behavior.  
-👉 https://github.com/thiphuongthaonguyen-sec/auth-log-monitor  
-
-### 🔹 File Integrity Monitor  
-Detects unauthorized file modifications using integrity checking techniques.  
-👉 https://github.com/thiphuongthaonguyen-sec/file-integrity-monitor  
-
-### 🔹 Linux Permission Security  
-Hands-on practice with Linux file permissions and access control.  
-👉 https://github.com/thiphuongthaonguyen-sec/linux-permission-security  
-
-### 🔹 Linux User Group Security  
-Focus on user/group management and secure system organization.  
-👉 https://github.com/thiphuongthaonguyen-sec/linux-user-group-security  
-
-### 🔹 Password Security Basics  
-Covers hashing, vulnerabilities, and best practices.  
-👉 https://github.com/thiphuongthaonguyen-sec/password-security-basics  
-
-### 🔹 Secure Data Pipeline  
-Demonstrates secure data handling and validation workflows.  
-👉 https://github.com/thiphuongthaonguyen-sec/secure-data-pipeline  
-
-### 🔹 Simple Log Analysis  
-Basic detection of suspicious login behavior.  
-👉 https://github.com/thiphuongthaonguyen-sec/simple-log-analysis  
-
-### 🔹 Simple Log Monitor  
-Observes log events and highlights anomalies.  
-👉 https://github.com/thiphuongthaonguyen-sec/simple-log-monitor  
-
-### 🔹 Docker Security Review  
-Introductory review of container security risks.  
-👉 https://github.com/thiphuongthaonguyen-sec/docker-security-review  
-
-### 🔹 Project Fail2ban Style  
-Inspired by Fail2ban for detecting and reacting to attacks.  
-👉 https://github.com/thiphuongthaonguyen-sec/project-fail2ban-style  
+| Project | Description |
+|--------|------------|
+| 🔐 Auth Log Monitor | Detects suspicious login attempts and brute-force patterns |
+| 🛡️ File Integrity Monitor | Identifies unauthorized file modifications |
+| 🐧 Linux Permission Security | Hands-on Linux access control and permissions |
+| 👥 Linux User Group Security | User/group management and system structure |
+| 🔑 Password Security Basics | Hashing, vulnerabilities, best practices |
+| 🔄 Secure Data Pipeline | Secure data validation and processing |
+| 📊 Simple Log Analysis | Detects suspicious login behavior |
+| 👀 Simple Log Monitor | Observes logs and highlights anomalies |
+| 🐳 Docker Security Review | Basic container security concepts |
+| 🚫 Fail2ban Style Project | Detect & react to suspicious login attempts |
 
 ---
 
 ## 🛠️ Tech Stack
 
-- HTML, CSS  
-- Python (basic scripting)  
-- Linux (permissions, users, groups)  
-- Git & GitHub  
-- Power Automate  
+<p>
+  <img src="https://img.shields.io/badge/HTML-black?style=flat&logo=html5">
+  <img src="https://img.shields.io/badge/CSS-black?style=flat&logo=css3">
+  <img src="https://img.shields.io/badge/Python-black?style=flat&logo=python">
+  <img src="https://img.shields.io/badge/Linux-black?style=flat&logo=linux">
+  <img src="https://img.shields.io/badge/Git-black?style=flat&logo=git">
+</p>
 
 ---
 
 ## 📬 Contact
 
-📧 Email: thaonguyen29041997@gmail.com  
-💻 GitHub: https://github.com/thiphuongthaonguyen-sec  
+- 📧 Email: thaonguyen29041997@gmail.com  
+- 💻 GitHub: https://github.com/thiphuongthaonguyen-sec  
 
 ---
 
-✨ This portfolio is continuously evolving as I learn and grow in cybersecurity.
+✨ *This portfolio is continuously evolving as I grow in cybersecurity and software engineering.*
+
+🤍 Bismillah – always learning, step by step.
