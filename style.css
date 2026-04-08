@@ -1,3 +1,9 @@
+/* RESET */
+* {
+  box-sizing: border-box;
+}
+
+/* BODY */
 body {
   font-family: Arial, sans-serif;
   background: #0d1117;
@@ -5,17 +11,19 @@ body {
   margin: 0;
 }
 
+/* CONTAINER */
 .container {
   width: 90%;
-  max-width: 1000px;
+  max-width: 1100px;
   margin: auto;
   padding: 40px 20px 80px;
 }
 
+/* HERO */
 .hero {
   text-align: center;
   margin-top: 80px;
-  margin-bottom: 50px;
+  margin-bottom: 60px;
 }
 
 h1 {
@@ -38,28 +46,76 @@ p {
   line-height: 1.7;
 }
 
+/* SECTION */
 .section {
   margin-top: 60px;
 }
 
-.card,
-.project {
-  background: #161b22;
-  padding: 22px;
-  margin-top: 20px;
-  border-radius: 14px;
-  border: 1px solid #21262d;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
-  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+/* GRID PROJECTS */
+.section:nth-of-type(2) {
+  /* About Me giữ nguyên */
 }
 
+.section:nth-of-type(3) {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+/* PROJECT GRID WRAPPER */
+.section:nth-of-type(3) .project {
+  width: 100%;
+}
+
+/* TẠO GRID CHO PROJECTS */
+@media (min-width: 768px) {
+  .section:nth-of-type(3) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .section:nth-of-type(3) h2 {
+    grid-column: span 2;
+  }
+}
+
+/* CARD / PROJECT */
+.card,
+.project {
+  background: linear-gradient(145deg, #161b22, #1c2128);
+  padding: 22px;
+  margin-top: 20px;
+  border-radius: 16px;
+  border: 1px solid #21262d;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+/* HOVER EFFECT */
 .card:hover,
 .project:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.28);
+  transform: translateY(-8px) scale(1.01);
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.4);
   border-color: #30363d;
 }
 
+/* GLOW EFFECT */
+.project::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(120deg, transparent, rgba(88, 166, 255, 0.15), transparent);
+  opacity: 0;
+  transition: 0.4s;
+}
+
+.project:hover::before {
+  opacity: 1;
+}
+
+/* LINKS */
 a {
   color: #58a6ff;
   text-decoration: none;
@@ -71,15 +127,16 @@ a:hover {
   text-decoration: underline;
 }
 
+/* HERO LINKS */
 .hero-links {
   margin-top: 18px;
 }
 
-/* Animation */
+/* ANIMATION */
 .fade-in {
   opacity: 0;
-  transform: translateY(24px);
-  animation: fadeUp 0.9s ease forwards;
+  transform: translateY(30px);
+  animation: fadeUp 0.8s ease forwards;
 }
 
 .delay-1 {
@@ -97,7 +154,7 @@ a:hover {
 @keyframes fadeUp {
   from {
     opacity: 0;
-    transform: translateY(24px);
+    transform: translateY(30px);
   }
   to {
     opacity: 1;
